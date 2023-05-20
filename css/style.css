@@ -1,0 +1,247 @@
+
+nav ul li {
+    display: inline-block;
+}
+
+#cyber,#baloo,#off,#drama,#paris,#pgas,#prsbn{
+    height: 200px;
+    width: auto;
+    
+}
+#spotify,#youtube{
+    height: 50px;
+    width: auto;
+}
+
+.card-spotify {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.card-yt {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.card{
+    display: inline-block;
+    margin-right: 2em;
+    border-radius: 10px 10px 10px 10px;
+}
+.card:hover{
+transform: scale(1.2);
+transition: transform 0.2s linear;
+}
+
+
+.card-img-top {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.info-card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    margin: 0%;
+    padding: 0 0 0 0;
+    color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Karantina', cursive;
+    font-size: 2em;
+}
+h1{
+    color: #F8A0FF;
+    margin-left: 2em;
+    font-size: 5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Karantina', cursive;
+}
+h2,h3 {
+    color:#F8A0FF;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Karantina', cursive;
+}
+h4{
+    text-align: left;
+    color: #F8A0FF;
+}
+p,aside{
+    color: #F8A0FF;
+    font-weight: 600;
+}
+
+
+.whitelink {
+    color: #000 !important;
+}
+.active{
+    color: #F8A0FF;
+    background-color: aliceblue;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.nounderline{
+    text-decoration: none !important;
+    padding: 15px 15px 30px 15px;
+}
+.img-aboutme{
+    width: 150px;
+    height: 100px;
+}
+
+.aboutme{
+    font-size: 3em;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 100%;
+}
+
+.box{
+        box-shadow: 10px 10px 5px #333;
+        margin-left: 6em;
+        margin-bottom: 10em;
+      }
+
+.section-home {
+    height: 100%;
+}
+
+/*........... FOOTER ..............*/
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color: #F8A0FF;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+    .row {
+        display: inline;
+    }
+
+    .bottoni{
+        align-items: center;
+        display: flex;
+    }
+
+    .btn {
+        border-radius: 20px;
+        border: 1px solid #000;
+        color: white;
+        background-color: #F8A0FF;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        margin: 1em;
+        margin-left: 6em;
+    }
+
+ .piattaforme{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Karantina', cursive;
+    font-size: 3em;
+ }   
+
+ .aboutme {
+    background-color: white;
+    width: 50%;
+    border-radius: 30px 20px 20px 30px;
+    margin-left: 2em;
+    margin-top: 2em;
+    border-color: #F8A0FF;
+    border: 20px;
+    border: solid 8px;
+    margin-bottom: 2em;
+ }
+ .navbar-brand{
+    font-size: 3em;
+ }
+ .paragrafo{
+    font-family: 'Fjalla One', sans-serif !important;
+    font-family: 'Karantina', cursive !important;
+    font-size: smaller;
+    margin-left: 1em;
+    letter-spacing: 1mm;
+    line-height: 10mm;
+ }
+ .commento{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Karantina', cursive;background-color: gray;
+    width: 50%;
+    border-radius: 30px 20px 20px 30px;
+    margin-left: 2em;
+    margin-top: 2em;
+    border-color: #F8A0FF;
+    border: 20px;
+    border: solid 8px;
+    font-size: 6em;
+
+
+ }
+.fine{
+    margin-left: 2em;
+    font-size: 2em;
+}
