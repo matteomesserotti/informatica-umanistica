@@ -30,6 +30,9 @@ nav ul li {
     margin-right: 2em;
     border-radius: 10px 10px 10px 10px;
 }
+.grafici{
+    text-align: center !important;
+}
 .card:hover{
 transform: scale(1.2);
 transition: transform 0.2s linear;
@@ -182,7 +185,8 @@ p,aside{
 
     .bottoni{
         align-items: center;
-        display: flex;
+        display: inline-block;
+        text-align: center;
     }
 
     .btn {
@@ -206,30 +210,21 @@ p,aside{
  }   
 
  .aboutme {
-    background-color: white;
-    width: 50%;
-    border-radius: 30px 20px 20px 30px;
-    margin-left: 2em;
-    margin-top: 2em;
-    border-color: #F8A0FF;
-    border: 20px;
-    border: solid 8px;
-    margin-bottom: 2em;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Karantina', cursive;
+    
  }
  .navbar-brand{
     font-size: 3em;
  }
  .paragrafo{
-    font-family: 'Fjalla One', sans-serif !important;
-    font-family: 'Karantina', cursive !important;
-    font-size: smaller;
     margin-left: 1em;
     letter-spacing: 1mm;
     line-height: 10mm;
  }
  .commento{
     font-family: 'Fjalla One', sans-serif;
-    font-family: 'Karantina', cursive;background-color: gray;
+    font-family: 'Karantina', cursive;background-color: white;
     width: 50%;
     border-radius: 30px 20px 20px 30px;
     margin-left: 2em;
@@ -237,11 +232,15 @@ p,aside{
     border-color: #F8A0FF;
     border: 20px;
     border: solid 8px;
-    font-size: 6em;
+    font-size: 3em;
+    letter-spacing: 0,7mm;
 
 
  }
 .fine{
     margin-left: 2em;
     font-size: 2em;
+}
+.navbar{
+    font-weight: bold;
 }
