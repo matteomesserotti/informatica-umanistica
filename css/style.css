@@ -242,12 +242,14 @@ p,aside{
     letter-spacing: 0,7mm;
     text-align: center;
     align-items: center;
+    margin-bottom: 2em;
 
 
  }
 .fine{
     margin-left: 2em;
     font-size: 2em;
+    
 }
 .navbar{
     font-weight: bold;
@@ -284,4 +286,36 @@ p,aside{
     position: relative;
     z-index: 2;
 
+}
+.sectionpgas{
+    position: relative;
+    z-index: 2;
+
+}
+.sectioncyber{
+    position: relative;
+    z-index: 2;
+
+}
+.sectiondrama{
+    position: relative;
+    z-index: 2;
+}
+.sectionpresabbene{
+    position: relative;
+    z-index: 2;
+
+}
+.sectionoff{
+    position: relative;
+    z-index: 2;
+}
+.sectionbaloo{
+    position: relative;
+    z-index: 2;
+
+}
+.sectionparis{
+    position: relative;
+    z-index: 2;
 }
