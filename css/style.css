@@ -29,6 +29,7 @@ nav ul li {
     display: inline-block;
     margin-right: 2em;
     border-radius: 10px 10px 10px 10px;
+    margin-top: 2em;
 }
 .grafici{
     text-align: center !important;
@@ -120,7 +121,11 @@ p,aside{
       }
 
 .section-home {
-    height: 100%;
+    height: 80vh;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+
 }
 
 /*........... FOOTER ..............*/
@@ -206,7 +211,7 @@ p,aside{
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Karantina', cursive;
-    font-size: 3em;
+    font-size: 6em;
  }   
 
  .aboutme {
@@ -223,9 +228,10 @@ p,aside{
     line-height: 10mm;
  }
  .commento{
+    padding: 1em;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Karantina', cursive;background-color: white;
-    width: 50%;
+    width: 70%;
     border-radius: 30px 20px 20px 30px;
     margin-left: 2em;
     margin-top: 2em;
@@ -234,6 +240,8 @@ p,aside{
     border: solid 8px;
     font-size: 3em;
     letter-spacing: 0,7mm;
+    text-align: center;
+    align-items: center;
 
 
  }
@@ -243,4 +251,37 @@ p,aside{
 }
 .navbar{
     font-weight: bold;
+    z-index: 2;
+}
+@media (max-widht:500px){
+    .fixed{
+        height: 100vh !important;
+    }
+}
+.fixed{
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+.testo{
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.sectionfooter{
+    position: relative;
+    z-index: 2;
+}
+.discografia{
+    position: relative;
+    z-index: 2;
+}
+.sectionabout{
+    position: relative;
+    z-index: 2;
+
 }
