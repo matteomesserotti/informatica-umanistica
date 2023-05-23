@@ -85,10 +85,18 @@ p,aside{
     color: #F8A0FF;
     font-weight: 600;
 }
-
+.screen{
+    width: 400px;
+    height: 500px;
+    margin-left: 2em;
+    margin-top: 2em;
+}
 
 .whitelink {
     color: #000 !important;
+}
+.linkga{
+    color: #F8A0FF;
 }
 .active{
     color: #F8A0FF;
@@ -249,7 +257,7 @@ p,aside{
 .fine{
     margin-left: 2em;
     font-size: 2em;
-    
+
 }
 .navbar{
     font-weight: bold;
